@@ -13,8 +13,8 @@
   },
   "homepage": "https://julian-andrade.github.io/million_word",
   "scripts": {
-    "predeploy": "npm run src",
-    "deploy": "gh-pages -d src",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
